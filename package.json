@@ -1,0 +1,38 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Mi primer CRUD con ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint",
+    "lintFinx": "eslint --fix"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "Brayan Mendez <bmendezchay@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "sequelize-cli": "^6.6.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5"
+  },
+  "type": "module"
+}
